@@ -1,0 +1,48 @@
+body{
+  font-family: 'Mulish', sans-serif;
+}
+
+header{
+  background-color: #FFF;
+  padding:  20px 0px;
+}
+
+.logo_serieC{
+  max-width: 200px;
+}
+
+
+.logo_serieC{
+  opacity: 1;
+  transition: 0.5s;
+}
+
+.logo_serieC:hover{
+  opacity: 0.75;
+}
+
+
+.header_box{
+  position: sticky;
+  width: 940px;
+  margin:  0px auto;
+  border-bottom: 2px solid #31439e
+}
+
+nav{
+  position: absolute;
+  top:  105px;
+  right:  0px;
+}
+
+nav li{
+  display: inline;
+  margin:  0 0 0 15px;
+}
+
+nav a{
+  text-transform: uppercase;
+  color:  #31439e;
+  font-size: 18px;
+  text-decoration: none;
+}
